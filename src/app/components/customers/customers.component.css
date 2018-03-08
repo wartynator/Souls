@@ -1,0 +1,23 @@
+
+
+
+.form-control-inline {
+    margin-left: 1rem; 
+    min-width: 0;
+    width: 20rem;
+    display: inline;
+}
+.btn-primary{
+    margin-left: 1rem;
+    margin-bottom: 0.2rem; 
+    padding: 0.25rem 1rem;
+    font-size: 20px,
+}
+
+.table-striped {
+    width: 100rem;
+    margin: 0 auto;
+ }
+
+
+ 

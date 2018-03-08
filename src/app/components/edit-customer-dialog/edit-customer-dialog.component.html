@@ -1,0 +1,72 @@
+      
+           
+                <div class="modal-body">
+              <div class= "row" style="padding-top: 1.5rem">
+                <div class="col">
+                  <div class="row">
+                  <label style="padding-right :0.5rem">Zadaj meno:</label>               
+                <div class="input-field">                  
+                  <input type="text" placeholder="Zadaj meno" [(ngModel)]= "customer.firstname" name="firstname">                  
+                </div>
+              </div>
+            </div>
+            <div class="col">
+                <div class="row">    
+                    <label style="padding-right :0.5rem">Zadaj priezvisko:</label>                
+                  <div class="input-field">                  
+                    <input type="text" placeholder="Zadaj priezvisko" [(ngModel)]= "customer.surename" name="surename">                  
+                  </div>
+                </div>
+                  </div>
+                    </div> 
+                    
+                    
+                    <div class= "row" style="padding-top: 1.5rem">
+                        <div class="col">
+                          <div class="row">
+                          <label style="padding-right :0.5rem">Zadaj adresu:</label>               
+                        <div class="input-field">                  
+                          <input type="text" placeholder="Zadaj adresu" [(ngModel)]= "customer.adress" name="adress">                  
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col">
+                        <div class="row">    
+                            <label style="padding-right :0.5rem">Zadaj zariadenie:</label>                
+                          <div class="input-field">                  
+                            <input type="text" placeholder="Zadaj zariadenie" [(ngModel)]= "customer.device" name="device">                  
+                          </div>
+                        </div>
+                          </div>
+                            </div>
+
+
+                            <div class= "row" style="padding-top: 1.5rem">
+                                <div class="col">
+                                  <div class="row">
+                                  <label style="padding-right :0.5rem">Zadaj telefonne cislo:</label>               
+                                <div class="input-field">                  
+                                  <input type="text" placeholder="Zadaj telefonne cislo" [(ngModel)]= "customer.telNumber" name="telNumber">                  
+                                </div>
+                              </div>
+                            </div>
+                            <div class="col">
+                                <div class="row">    
+                                    <label style="padding-right :0.5rem">Zadaj email:</label>                
+                                  <div class="input-field">                  
+                                    <input type="text" placeholder="Zadaj email" [(ngModel)]= "customer.email" name="email">                  
+                                  </div>
+                                </div>
+                                  </div>
+                                    </div>   
+                                  </div>
+           
+         
+          <div class="modal-footer">
+              <div class= "row"> 
+                <button type="button" class="btn btn-primary btn-lg" (click)="onUpdate();" data-dismiss="modal"><div>Potvrd</div></button>
+              
+              </div>
+            </div>
+          
+      
